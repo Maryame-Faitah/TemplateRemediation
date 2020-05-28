@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class PostController extends Controller
+class IndexController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,8 +13,7 @@ class PostController extends Controller
      */
     public function index()
     {
-        // Retourner une view
-        // return view('post');
+        return view('index');
     }
 
     /**

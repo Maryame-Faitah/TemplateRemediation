@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+// Route::get('/', function () {
+//     return view('index');
+// });
 
-// Nommer une route
-// Route::resource('/post','PostController');
+// Utilisation d'un controller pour retourner ma view index
+Route::resource('/','IndexController');
